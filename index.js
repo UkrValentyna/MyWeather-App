@@ -58,22 +58,4 @@ function typeCity(event) {
 let form = document.querySelector("form");
 form.addEventListener("submit", typeCity);
 
-function unitsFahrenheit(event) {
-  event.preventDefault();
-  temperature.innerHTML = 66;
-}
-
-let fahrenheit = document.querySelector("#f-t");
-
-let temperature = document.querySelector("#temperature");
-fahrenheit.addEventListener("click", unitsFahrenheit);
-
-function unitsCelsius(event) {
-  event.preventDefault();
-  temperature.innerHTML = 19;
-}
-
-let celsius = document.querySelector("#c-t");
-celsius.addEventListener("click", unitsCelsius);
-
 search("London");
